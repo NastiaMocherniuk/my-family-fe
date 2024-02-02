@@ -10,21 +10,21 @@ import Contacts from "./components/Contacts/Contacts";
 import Login from "./components/Login/Login";
 
 function App() {
-  return (
-      <BrowserRouter>
-          <div className="App">
-              <Header/>
-          </div>
-        <Routes>
-            <Route path="/home" Component={Home} />
-            <Route path="/about" Component={About} />
-            <Route path="/gallery" Component={Gallery} />
-            <Route path="/pets" Component={Pets} />
-            <Route path="/contacts" Component={Contacts} />
-            <Route path="/login" Component={Login} />
-        </Routes>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <Header/>
+                <Routes>
+                    <Route path="/home" Component={Home}/>
+                    <Route path="/about" Component={About}/>
+                    <Route path="/gallery" Component={Gallery}/>
+                    <Route path="/pets" Component={Pets}/>
+                    <Route path="/contacts" Component={Contacts}/>
+                    <Route path="/login" Component={Login}/>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
