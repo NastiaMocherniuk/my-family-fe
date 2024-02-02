@@ -1,0 +1,26 @@
+li {
+    display: inline;
+}
+a {
+    padding: 8px;
+    color: green;
+    font-family: "Apple Braille";
+    font-size: 45px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+}
+
+.link-separator {
+    padding: 8px;
+    margin: 8px;
+    color: green;
+    font-size: 55px
+}
